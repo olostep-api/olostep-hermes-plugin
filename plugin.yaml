@@ -4,7 +4,7 @@ description: "Olostep web data for Hermes: a search and extract backend for the 
 author: Olostep
 license: MIT
 homepage: https://github.com/olostep-api/olostep-hermes-plugin
-requires_hermes: ">=0.19"
+requires_hermes: ">=0.22.3"
 provides_tools:
   - olostep_answer
   - olostep_map
