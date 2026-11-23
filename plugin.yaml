@@ -1,0 +1,21 @@
+name: olostep
+version: "0.1.0"
+description: "Olostep web data for Hermes: a search and extract backend for the built-in web_search and web_extract tools, plus answers, site maps, crawls and batch scraping."
+author: Olostep
+license: MIT
+homepage: https://github.com/olostep-api/olostep-hermes-plugin
+requires_hermes: ">=0.21.6"
+provides_tools:
+  - olostep_answer
+  - olostep_map
+  - olostep_crawl
+  - olostep_batch
+  - olostep_get_results
+provides_web_providers:
+  - olostep
+provides_hooks: []
+requires_env:
+  - name: OLOSTEP_API_KEY
+    description: "Olostep API key (new accounts get 500 free credits)"
+    url: https://www.olostep.com/dashboard
+    secret: true
